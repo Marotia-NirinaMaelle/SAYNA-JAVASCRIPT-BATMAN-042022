@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+/**Barre de navigation */
+
+header {
+    background-image: url(../Assets/Illustrations/Game/Batgame1.png);
+    height: 1300px;
+    background-size: cover;
+    background-position: center;
+}
+
+header nav {
+    padding-top: 4%;
+}
+
+header h1 {
+    padding: 25% 15%;
+}
+
+header .RS {
+    top: 70%;
+    padding-left: 85%;
+    position: absolute;
+}
+
+
+/**Police et couleur */
+
+header a {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h2 {
+    color: #c4c4c4;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h3 {
+    color: #c4c4c4;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p {
+    color: #c4c4c4;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+/**Contenu */
+
+main {
+    margin-top: 10%;
+}
+
+main h1 {
+    padding: 3% 13%;
+}
+
+main section {
+    padding: 0 13%;
+}
+
+main img {
+    margin: 0 20%;
+}
+
+
+/**Quiz */
+
+form {
+    background-color: #c4c4c4;
+    position: relative;
+    width: 60%;
+    height: 45px;
+}
+
+label {
+    color: #FFFFFF;
+    padding: 1%;
+    font-size: 25px;
+}
+
+.form-check-input {
+    width: 4%;
+    height: 55%;
+    margin: 2% 1%;
+}
+
+
+/**btn */
+
+.bouton {
+    margin: 5% 0;
+    text-align: center;
+}
+
+button {
+    padding: 2% 7%;
+    color: #FFFFFF;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #e87676e3;
+}
+
+
+/**Avant Footer */
+
+.wb {
+    padding: 5%;
+}
+
+
+/**Footer */
+
+footer {
+    margin-bottom: 5%;
+}

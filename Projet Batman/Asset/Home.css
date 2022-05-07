@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+/**Barre de navigation */
+
+header {
+    background-image: url(../Assets/Illustrations/Home/Bathome1.png);
+    height: 1100px;
+    background-size: cover;
+    background-position: center;
+}
+
+header nav {
+    padding-top: 4%;
+}
+
+header section {
+    text-align: center;
+    top: 30%;
+    padding: 0 25%;
+    position: relative;
+}
+
+header button {
+    background-color: transparent;
+    color: white;
+    padding: 2% 5%;
+}
+
+header .RS {
+    padding-left: 85%;
+}
+
+
+/**Police et couleur */
+
+header a {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h2 {
+    color: #c4c4c4;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h3 {
+    color: #c4c4c4;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p {
+    color: #c4c4c4;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+button {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/**Contenu */
+
+main {
+    padding-top: 7%;
+}
+
+main .espace {
+    margin: 0 13%;
+}
+
+main .container {
+    padding: 7%;
+}
+
+main #nemesis {
+    padding-top: 7%;
+}
+
+
+/**Multimedia */
+
+span {
+    color: #F8F184;
+}
+
+.card {
+    width: 900px;
+    font-size: 9px;
+    border-radius: 15px;
+    background-color: #8cbad443;
+}
+
+
+/**Formulaire */
+
+#form {
+    margin: 0 25%;
+}
+
+#form h4 {
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.contact input {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid gray;
+}
+
+.bouton {
+    justify-content: space-around;
+    text-align: center;
+    margin: 5%;
+}
+
+
+/**Avant footer */
+
+main .texte {
+    text-align: center;
+}
+
+main .wb {
+    padding: 5%;
+}
+
+
+/**footer */
+
+footer {
+    margin-bottom: 5%;
+}
